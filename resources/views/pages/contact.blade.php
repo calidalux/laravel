@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Помогите мне!</title>
-</head>
-<body>
+@extends ('app')
+
+@section('content')
+
 	<h1>Contact me, bitch!</h1>
-</body>
-</html>
+
+@stop
+
+@section('footer')
+	<script>alert('Contatc from scripts');</script>
+@stop
